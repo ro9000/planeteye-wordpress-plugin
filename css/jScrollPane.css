@@ -1,0 +1,75 @@
+
+.jScrollPaneContainer {
+	position: relative;
+	overflow: hidden;
+	z-index: 1;
+}
+
+.jScrollPaneTrack {
+	position: absolute;
+	cursor: pointer;
+	right: 0;
+	top: 0;
+	height: 100%;
+	background: #f6f6f6;
+}
+.jScrollPaneDrag {
+	position: absolute;
+	cursor: pointer;
+	overflow: hidden;
+	right: 0;
+	background:url(../img/scBack.gif) 0 0;
+}
+.jScrollPaneDragTop {
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+	height:5px;
+	background:url(../img/scTop.gif) 0 0 no-repeat;
+}
+.jScrollPaneDragBottom {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	overflow: hidden;
+	height:5px;
+	background:url(../img/scBottom.gif) no-repeat;
+}
+a.jScrollArrowUp {
+	display: block;
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	right: 0;
+	text-indent: -2000px;
+	overflow: hidden;
+	/*background-color: #666;*/
+	
+	height: 16px;
+	width: 16px;
+	background:url(../img/scUp.gif) 0 0 no-repeat;
+}
+a.jScrollArrowUp:hover {
+	background:url(../img/scUp-on.gif) 0 0 no-repeat;
+}
+
+a.jScrollArrowDown {
+	display: block;
+	position: absolute;
+	z-index: 1;
+	bottom: 0;
+	right: 0;
+	text-indent: -2000px;
+	overflow: hidden;
+	/*background-color: #666;*/
+	height: 16px;
+	width: 16px;
+	background:url(../img/scDown.gif) 0 0 no-repeat;
+}
+a.jScrollArrowDown:hover {
+	background:url(../img/scDown-on.gif) 0 0 no-repeat;
+}
+a.jScrollActiveArrowButton, a.jScrollActiveArrowButton:hover {
+	/*background-color: #f00;*/
+}

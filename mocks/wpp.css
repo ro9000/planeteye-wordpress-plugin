@@ -1,0 +1,262 @@
+
+
+/* this body rule may need to be 
+   removed for integration */
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+
+
+
+.clear {
+  clear: both;
+}
+
+
+#wpp img {
+  /* override some ugly global rules */
+  float: none;
+  margin: 0;
+  padding: 0;
+}
+
+#wpp {
+
+  font-family: "Trebuchet MS", Arial, sans-serif;
+  font-size: 13px;
+
+  width: 670px;
+  height: 670px;
+
+  border: 1px solid #ddddee;
+
+}
+
+#wpp #wpp_header {
+  height: 25px;
+  background: #E8F5FE;
+  border-bottom: 1px solid #CEE0EE;
+  font-weight: bold;
+  color: #3A5769;
+  padding-left: 20px;
+  padding-top: 9px;
+  font-size: 14px;
+}
+
+#wpp .wpp_mhead {
+  font-size: 14px;
+  font-weight: bold;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+#wpp #wpp_fsearch {
+  border: 1px solid #ccbbcc;
+  width: 625px;
+  margin-left: 13px;
+  padding-bottom: 11px;
+  padding-top: 7px;
+}
+
+
+#wpp .wpp_fsearch_one {
+  margin-top: 5px;
+}
+
+#wpp .wpp_fsearch_one .q {
+  display: block;
+  float: left;
+  padding-left: 10px;
+  width: 75px;
+}
+
+#wpp .wpp_fsearch_one .q div {
+  color: #666666;
+  font-size: 11px;
+  font-style: italic;
+}
+
+#wpp .wpp_fsearch_one .w {
+  display: block;
+  float: left;
+  width: 300px;
+  height: 25px;
+}
+
+#wpp .wpp_fsearch_one .e {
+  display: block;
+  float: left;
+  color: #666666;
+  font-size: 11px;
+  font-style: italic;
+  padding-left: 15px;
+  padding-top: 6px;
+}
+
+#wpp #wpp_fsearch_button {
+  border: 1px solid #CFE1EF;
+  background-color: #E7F5FE;
+  color: #1E4B6A;
+  display: block;
+  margin-left: 297px;
+  margin-top: 10px;
+  padding-bottom: 2px;
+  padding-left: 20px;
+  padding-top: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 70px;
+}
+
+
+#wpp #wpp_area {
+  padding-left: 13px;
+}
+
+#wpp #wpp_results {
+  width: 409px;
+  height: 376px;
+  float: left;
+  border: 1px solid #ccbbcc;
+  margin-right: 4px;
+  overflow: auto;
+  position: relative;
+}
+
+#wpp #wpp_map {
+  width: 236px;
+  height: 378px;
+  float: left;
+}
+
+#wpp .wpp_res {
+  height: 73px;
+  padding-top: 2px;
+}
+
+#wpp .wpp_res_alt {
+  background: #EDEDED;
+}
+
+#wpp .wpp_res .x1 {
+  float: left;
+  padding-left: 10px;
+  margin-right: 10px;
+  margin-top: 5px;
+  color: #999999;
+}
+
+#wpp .wpp_res .x2 {
+  float: left;
+  margin-top: 5px;
+  padding-bottom: 5px;
+}
+
+#wpp .wpp_res .x2 .q {
+  font-weight: bold;
+}
+
+#wpp .wpp_res .x2 .w {
+  color: #444444;
+  font-size: 12px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+#wpp .wpp_res .x2 .e {
+  background: white;
+  font-size: 12px;
+  color: #2B5676;
+  border: 1px solid #C7C7C7;
+  text-decoration: none;
+  padding: 1px 11px;
+}
+
+
+#wpp #wpp_paging {
+  position: relative;
+  height: 22px;
+  border-top: 1px solid #cccccc;
+  padding-top: 2px;
+}
+
+#wpp #wpp_paging .q {
+  display: inline;
+  float: left;
+  padding-top: 3px;
+  padding-left: 5px;
+  text-transform: uppercase;
+  font-size: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+#wpp #wpp_paging .w {
+  position: absolute;
+  left: 185px;
+  padding-top: 2px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+#wpp #wpp_paging .w span {
+
+}
+
+#wpp #wpp_paging .e {
+  display: inline;
+  float: right;
+  padding-top: 3px;
+  padding-right: 6px;
+  text-transform: uppercase;
+  font-size: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+#wpp #wpp_paging .e.wpp_paging_disabled {
+  color: #999999;
+}
+
+
+#wpp #wpp_last {
+  padding-top: 12px;
+}
+
+#wpp #wpp_last .q {
+  float: left;
+  color: #777777;
+  padding-left: 22px;
+  margin-right: 10px;
+}
+
+#wpp #wpp_last .w {
+  float: left;
+  margin-right: 10px;
+}
+
+#wpp #wpp_last .e {
+  float: left;
+  height: 20px;
+  width: 220px;
+  margin-right: 13px;
+}
+
+#wpp #wpp_last .r {
+  float: left;
+  background: white;
+  font-size: 12px;
+  color: #2B5676;
+  border: 1px solid #C7C7C7;
+  text-decoration: none;
+  padding: 1px 11px;
+}
+

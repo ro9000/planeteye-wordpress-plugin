@@ -1,0 +1,13 @@
+
+.expoi .expoi_bot {
+	position: relative;
+	padding-top: 8px !important;
+}
+.expoi .expoi_content {
+	position: relative;
+	height: 275px;
+}
+
+.expoi .expoi_content_list {
+	margin-left: 0px !important;
+}

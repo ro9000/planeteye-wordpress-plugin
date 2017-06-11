@@ -1,0 +1,1112 @@
+
+/* remove the HEADER when integrating */
+
+
+/* BEGIN_HEADER */
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+a {
+  color: #EF4723;
+}
+
+a:hover, a:focus {
+  color: #872814;
+}
+
+/* END_HEADER */
+
+
+
+
+
+
+
+.ssbus img {
+  /* override some ugly global rules */
+  float: none;
+  margin: 0;
+  padding: 0;
+}
+
+.ssbus {
+
+  font-family: "Trebuchet MS", Arial, sans-serif;
+  font-size: 13px;
+
+  width: 100%;
+
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+
+.ssbus .ssbus_dash_tabs {
+
+  width: 960px;
+  /* background-color: #eeeeff; */
+  border-bottom: 1px solid black;
+
+}
+
+.ssbus .ssbus_dash_tabs .ssbus_dash_tabs_onetab {
+
+  cursor: pointer;
+  float: left;
+  background: #f1f1f1;
+  color: #3b638f;
+
+  font-size: 15px;
+  font-weight: bold;
+
+  width: 196px;
+
+  border: 1px solid;
+  border-bottom: none;
+
+  margin-right: 10px;
+
+  height: 28px;
+  margin-top: 7px;
+
+}
+
+.ssbus .ssbus_dash_tabs .ssbus_dash_tabs_onetab .q {
+
+  text-align: center;
+  margin-top: 3px;
+
+}
+
+
+.ssbus .ssbus_dash_tabs .ssbus_dash_tabs_onetab_current {
+
+  color: black;
+
+  height: 35px;
+  margin-top: 0;
+
+  /* bump it down 1px to cover the main bottom border */
+  position: relative;
+  top: 1px;
+  background: white;
+
+}
+
+.ssbus .ssbus_dash_tabs .ssbus_dash_tabs_onetab_current .q {
+
+  margin-top: 6px;
+  
+}
+
+
+
+.ssbus .ssbus_lsheet {
+  border-top: 1px solid #cccccc;
+  border-bottom: 1px solid #cccccc;
+  margin-top: 25px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.ssbus .ssbus_lsheet_eadd {
+  padding-top: 10px;
+  padding-left: 12px;
+}
+
+.ssbus .ssbus_lsheet_eadd_button {
+  background-image: url(/i/selfserve/button_new_location.png);
+  display: block;
+  width: 154px;
+  height: 33px;
+  text-indent: -9999px;
+  overflow: hidden;
+}
+
+
+.ssbus .ssbus_lsheet_elocation {
+
+}
+
+.ssbus .ssbus_lsheet_elocation_one {
+  float: left;
+  width: 470px;
+  margin-right: 20px;
+
+}
+
+.ssbus .ssbus_lsheet_elocation_two {
+  float: left;
+  width: 470px;
+
+}
+
+.ssbus .ssbus_lsheet_elocation .x {
+  padding-top: 13px;
+}
+
+.ssbus .ssbus_lsheet_elocation .x .f1 {
+  float: left;
+  padding-left: 15px;
+  width: 90px;
+}
+
+.ssbus .ssbus_lsheet_elocation .x .f2 {
+  float: left;
+}
+
+.ssbus .ssbus_lsheet_elocation .x .f2 input {
+  width: 180px;
+}
+
+.ssbus .ssbus_lsheet_elocation .x .f2 select {
+  width: 160px;
+  margin-right: 22px;
+}
+
+.ssbus .ssbus_lsheet_elocation .x .f2 textarea {
+  width: 355px;
+  height: 165px;
+}
+
+.ssbus .ssbus_lsheet_elocation_el_add {
+  margin-top: 7px;
+}
+.ssbus .ssbus_lsheet_elocation_el_add a {
+  color: black;
+  font-size: 12px;
+}
+
+
+.ssbus .ssbus_lsheet_elocation_two .y {
+  padding-top: 13px;
+  margin-left: 10px;
+}
+
+.ssbus .ssbus_lsheet_elocation_two .y .f1 {
+  float: left;
+  width: 74px;
+}
+
+.ssbus .ssbus_lsheet_elocation_two .y .f2 {
+  float: left;
+}
+
+.ssbus .ssbus_lsheet_elocation_two .y .f2 .c {
+
+}
+
+.ssbus .ssbus_lsheet_elocation_two .y .f2 .c a {
+  background-image: url(/i/selfserve/find_from_address.png);
+  display: block;
+  height: 23px;
+  margin-bottom: 15px;
+  text-indent: -9999px;
+  overflow: hidden;
+  width: 136px;
+}
+
+.ssbus .ssbus_lsheet_elocation_two .y .f2 .a {
+
+}
+
+.ssbus .ssbus_lsheet_elocation_two .y .f2 .b {
+  width: 380px;
+  padding-top: 4px;
+}
+
+.ssbus .ssbus_lsheet_elocation_two .y .f2 .b .q {
+  float: left;
+  font-size: 12px;
+  color: #555555;
+}
+
+.ssbus .ssbus_lsheet_elocation_two .y .f2 .b .w {
+  float: right;
+  font-size: 11px;
+  color: #999999;
+}
+
+
+.ssbus .ssbus_lsheet_elocation_one_buttons {
+  margin-top: 30px;
+  margin-left: 215px;
+}
+
+.ssbus .ssbus_lsheet_elocation_one_buttons .q {
+  float: left;
+  margin-right: 20px;
+}
+
+.ssbus .ssbus_lsheet_elocation_one_buttons .q a {
+  background-image: url(/i/selfserve/button_create.png);
+  display: block;
+  width: 114px;
+  height: 33px;
+  text-indent: -9999px;
+  overflow: hidden;
+}
+
+.ssbus .ssbus_lsheet_elocation_one_buttons .w {
+  float: left;
+}
+
+.ssbus .ssbus_lsheet_elocation_one_buttons .w a {
+  background-image: url(/i/selfserve/button_cancel.png);
+  display: block;
+  width: 114px;
+  height: 33px;
+  text-indent: -9999px;
+  overflow: hidden;
+}
+
+
+
+.ssbus .ssbus_locks {
+ margin-top:10px;
+}
+
+.ssbus .ssbus_alock {
+  border-bottom: 1px solid #cccccc;
+ 
+  margin-top: 16px;
+  padding-bottom: 6px;
+}
+
+.ssbus .ssbus_alock .f1 {
+  padding-left: 20px;
+  width: 40px;
+}
+
+.ssbus .ssbus_alock .f1 .q {
+  font-size: 14px !important;
+  color: #666666;
+}
+
+.ssbus .ssbus_alock .f2 
+{
+	float:none;
+  width: 800px;
+}
+
+.ssbus .ssbus_alock .f2 .q {
+  font-size: 15px;
+  font-weight: bold;
+  padding-bottom: 4px;
+}
+
+.ssbus .ssbus_alock .f2 .w {
+  font-weight: bold;
+}
+
+.ssbus .ssbus_alock .f2 .e {
+color:#999999;
+display:inline;
+font-size:11px;
+padding-top:2px;
+}
+
+.ssbus .ssbus_alock .f2 .r {
+  padding-top: 2px;
+  display:block;
+  font-size:11px;
+  color:#999;
+}
+
+.ssbus .ssbus_alock .f2 .r a {
+  color: #888;
+}
+
+.ssbus .ssbus_alock .f3 {
+  margin-top: 10px;
+  font-size:13px;
+  
+  width: 800px;
+}
+
+.ssbus .ssbus_alock .f3 .q {
+  color: #444;
+  padding:0 !important;
+}
+
+.ssbus .ssbus_alock .f4 {
+  float:left;
+  margin-top: 16px !important;
+  margin-bottom:5px !important;
+  display:block;
+  width:800px;
+}
+
+.ssbus .ssbus_alock .f4 .q {
+ padding-top: 0px !important;
+  padding-bottom:0px !important;
+  display: inline;
+  float:left;
+}
+
+div.q label
+{
+	font-size:15px;
+font-weight:bold;
+display:block;
+	color:Black;
+	}
+
+div.q input 
+{
+	border:1px solid #999;
+	padding:2px;
+	font-size: 13px;
+	color: #444;
+	width:300px;
+
+}
+
+div.q textarea 
+{
+	border:1px solid #999;
+	padding:2px;
+	font-size: 13px;
+	color: #666;
+	width:700px;
+	display:block;
+}
+
+.ssbus .ssbus_alock .f4 .q a {
+background:transparent url(/i/selfserve/miniEdit.gif) no-repeat scroll left center;
+color:#3B638F;
+display:block;
+font-size:12px;
+text-decoration:none;
+font-weight:bold;
+height:16px;
+padding-left:16px;
+text-transform:uppercase;
+}
+
+.ssbus .ssbus_alock .f4 .w {
+ display: inline;
+margin-left:20px;
+float:left;
+}
+
+.ssbus .ssbus_alock .f4 .w a {
+background:transparent url(/i/selfserve/miniX.gif) no-repeat scroll left center;
+color:#980000;
+display:block;
+font-size:12px;
+font-weight:bold;
+text-decoration:none;
+height:14px;
+padding-left:16px;
+text-transform:uppercase;
+}
+
+
+
+
+.ssbus .ssbus_bblols {
+
+}
+
+.ssbus .ssbus_slol {
+  float: left;
+  width: 300px;
+  height: 360px;
+  border: 2px solid #e3e3e3;
+}
+
+.ssbus .ssbus_slol_basic {
+  margin-right: 24px;
+}
+
+.ssbus .ssbus_slol_advanced {
+  margin-right: 24px;
+}
+
+.ssbus .ssbus_slol_premium {
+  border: 2px solid #4A7291;
+}
+
+.ssbus .ssbus_slol_basic .p1 {
+  background-color: #f2f2f2;
+}
+
+.ssbus .ssbus_slol_advanced .p1 {
+  background-color: #efefef;
+}
+
+.ssbus .ssbus_slol_premium .p1 {
+  background-color: #DCEEFB;
+}
+
+.ssbus .ssbus_slol .p1 {
+  height: 140px;
+  border-bottom: 1px solid #cfcfcf;
+}
+
+.ssbus .ssbus_slol .p1 .q {
+  font-size: 34px;
+  padding-top: 15px;
+  padding-bottom: 7px;
+  padding-left: 11px;
+}
+
+.ssbus .ssbus_slol .p1 .q span {
+  font-weight: bold;
+}
+
+.ssbus .ssbus_slol .p1 .w {
+  padding-left: 11px;
+  padding-right: 10px;
+  color: #666666;
+}
+
+.ssbus .ssbus_slol .p1 .e {
+  color: green;
+  font-size: 22px;
+  font-weight: bold;
+  padding-left: 11px;
+  padding-top: 5px;
+}
+
+.ssbus .ssbus_slol_premium .p1 .e {
+  font-size: 14px;
+  padding-top: 10px;
+}
+
+.ssbus .ssbus_slol .p2 {
+  height: 140px;
+  border-bottom: 1px solid #cfcfcf;
+}
+
+.ssbus .ssbus_slol .p2 .q {
+  font-size: 18px;
+  line-height: 1.4;
+  padding-left: 11px;
+  padding-top: 13px;
+  color: #01364A;
+}
+
+.ssbus .ssbus_slol .p2 .q span {
+  color: #29708A;
+}
+
+.ssbus .ssbus_slol .p3 {
+
+}
+
+.ssbus .ssbus_slol .p3 .q {
+  font-weight: bold;
+  padding-top: 25px;
+  text-align: center;
+}
+
+.ssbus .ssbus_slol .p3 .w {
+  margin-top: 10px; 
+}
+
+.ssbus .ssbus_slol .p3 .w a {
+  background-image: url(/i/selfserve/button_signup.png);
+  display: block;
+  width: 114px;
+  height: 33px;
+  text-indent: -9999px;
+  overflow: hidden;
+
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.ssbus .ssbus_slol .p3 .e {
+  font-size: 12px;
+  margin-top: 10px;
+  text-align: center;
+  color: #555555;
+}
+
+.ssbus .ssbus_slol .p3 .e a {
+  color: black;
+}
+
+.ssbus .ssbus_slol .p3 .r {
+  font-weight: bold;
+  padding-top: 25px;
+  text-align: center;
+  color: #666666;
+}
+
+
+
+
+.ssbus .ssbus_sed {
+  background-image: url(/i/selfserve/headerlo.jpg);
+  width: 960px;
+  height: 188px;
+  
+}
+
+.ssbus .ssbus_sed_tops {
+
+  top: 45px;
+  left: 40px;
+  width: 525px;
+  height: 150px;
+  
+}
+
+.ssbus .ssbus_sed_tops .q {
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+}
+
+.ssbus .ssbus_sed_tops .q span {
+  color: #ffed71;
+}
+
+.ssbus .ssbus_sed_tops .w {
+  color: white;
+  font-size: 15px;
+  padding-top: 20px;
+}
+
+.ssbus .ssbus_sed_tops .e {
+  color: white;
+  font-size: 15px;
+  padding-top: 20px;
+}
+
+.ssbus .ssbus_sed_tops .e span {
+  font-weight: bold;
+}
+
+
+.ssbus .ssbus_sed_m {
+
+}
+
+.ssbus .ssbus_sed_mx {
+  /* background: orange; */
+}
+
+.ssbus .ssbus_sed_mx .q {
+  padding-top: 4px;
+  font-size: 15px;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+.ssbus .ssbus_sed_mx .w {
+  font-family: Arial;
+  font-size: 12px;
+}
+
+.ssbus .ssbus_sed_m1 {
+  position: absolute;
+  top: 185px;
+  left: 30px;
+  width: 200px;
+  height: 65px;
+}
+
+.ssbus .ssbus_sed_m2 {
+  position: absolute;
+  top: 185px;
+  left: 250px;
+  width: 190px;
+  height: 65px;
+}
+
+.ssbus .ssbus_sed_m3 {
+  position: absolute;
+  top: 185px;
+  left: 490px;
+  width: 165px;
+  height: 65px;
+}
+
+.ssbus .ssbus_sed_m4 {
+  position: absolute;
+  top: 185px;
+  left: 682px;
+  width: 215px;
+  height: 65px;
+}
+
+.ssbus .ssbus_sed_m3 .q {
+  color: #206700;
+}
+
+.ssbus .ssbus_sed_m4 .q {
+  color: #286993;
+}
+
+
+
+.ssbus .ssbus_crea {
+	display:none;
+}
+
+.ssbus .ssbus_crea_try {
+  background-image: url(/i/selfserve/crea_tryit.png);
+  display: block;
+  width: 207px;
+  height: 39px;
+  text-indent: -9999px;
+  overflow: hidden;
+
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.ssbus .ssbus_crea_info {
+  font-size: 14px;
+  padding-left: 6px;
+  line-height: 1.5;
+  width: 700px;
+}
+
+.ssbus .ssbus_give {
+  /* margin-top: 22px; */
+}
+
+.ssbus .ssbus_give .h {
+  background-color: #83AED0;
+  border-top: 1px solid #5E90BC;
+  border-bottom: 1px solid #5E90BC;
+  height: 42px;
+}
+
+.ssbus .ssbus_give .h .q {
+  float: left;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.ssbus .ssbus_give .h .w {
+  float: left;
+  font-size: 18px;
+  color: white;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.ssbus .ssbus_gbody {
+  background-color: white;
+  border-bottom: 5px solid #e9e9e9;
+  border-left: 5px solid #e9e9e9;
+  border-right: 5px solid #e9e9e9;
+  padding-bottom: 10px;
+}
+
+.ssbus .ssbus_gbody .a {
+  float: left;
+  width: 280px;
+  margin-right: 20px;
+}
+
+.ssbus .ssbus_gbody .b {
+  float: left;
+  width: 300px;
+}
+
+.ssbus .ssbus_gbody .b .q {
+  font-size: 14px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  color: #888888;
+}
+
+.ssbus .ssbus_gbody .b .q img {
+  margin-right: 10px;
+}
+
+.ssbus .ssbus_gbody .b .w {
+  /* width: 560px; */
+  margin-bottom: 10px;
+}
+
+.ssbus .ssbus_gbody .a .v1 {
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+.ssbus .ssbus_gbody .a .v1 .q {
+  padding-bottom: 4px;
+}
+
+.ssbus .ssbus_gbody .a .v1 .w {
+
+}
+
+.ssbus .ssbus_gbody .a .v1 .w input {
+  margin-right: 10px;
+  width: 150px;
+  height: 24px;
+  border:1px solid #999;
+  padding:2px;
+  font-size: 13px;
+  color: #444;
+}
+
+.ssbus .ssbus_gbody .a .v1 .w a {
+  position: absolute;
+  background-image: url(../img/crea2_button_find.png);
+  width: 67px;
+  height: 24px;
+  text-indent: -9999px;
+  overflow: hidden;
+}
+
+div.w div#ssbus_map
+{
+  width: 340px;
+  height: 330px;
+  float: left;
+  border:1px solid #797979;
+  margin:0 0 0 10px;
+  padding:0;
+
+}
+
+.ssbus .ssbus_gbody .a .v1 .e {
+
+}
+
+.ssbus .ssbus_gbody .a .v1 .e .k {
+  padding-top: 5px;
+  color: #333;
+}
+
+.ssbus .ssbus_gbody .a .v1 .e .k .k1 {
+
+}
+
+.ssbus .ssbus_gbody .a .v1 .e .k .k2 {
+  font-weight: bold;
+  padding-left: 6px;
+  padding-right: 1px;
+}
+
+.ssbus .ssbus_gbody .a .v1 .e .k .k4 {
+	color: #888;
+	font-size:10px;
+	display:block;
+	margin-left:46px;
+}
+
+.ssbus .ssbus_gbody .a .v1 .r {
+
+}
+
+.ssbus .ssbus_gbody .a .v1 .r .r0 {
+  float: right;
+  padding-top: 10px;
+  padding-right: 21px;
+}
+
+.ssbus .ssbus_gbody .a .v1 .r .r0 a {
+  color: #29708A;
+}
+
+.ssbus .ssbus_gbody .a .v2 {
+  font-size: 15px;
+  text-align: center;
+  width: 260px;
+  padding-top: 30px;
+  padding-left: 15px;
+  padding-bottom: 20px;
+  color: #999999;
+}
+
+.ssbus .ssbus_gbody .a .v2 a {
+  color: #555555;
+}
+
+.ssbus .ssbus_mg {
+  height: 270px;
+  background-color: #e9e9e9;
+}
+
+.ssbus .ssbus_mg .a {
+  float: left;
+  width: 450px;
+  margin-right: 20px;
+}
+
+.ssbus .ssbus_mg .b {
+  float: left;
+  width: 490px;
+}
+
+
+.ssbus .ssbus_mg .a .x {
+  padding-left: 30px;
+  padding-top: 20px;
+}
+
+.ssbus .ssbus_mg .a .x .f1 {
+  float: left;
+  width: 80px;
+}
+
+.ssbus .ssbus_mg .a .x .f2 {
+  float: left;
+}
+
+.ssbus .ssbus_mg .a .x .f2 .q {
+
+}
+
+.ssbus .ssbus_mg .a .x .f2 .q input {
+  width: 220px;
+}
+
+.ssbus .ssbus_mg .a .x .f2 .w {
+  text-align: right;
+  color: #777777;
+  font-size: 11px;
+  padding-top: 2px;
+}
+
+
+.ssbus .ssbus_mg .a .y {
+  margin-top: 35px;
+  margin-left: 110px;
+}
+
+.ssbus .ssbus_mg .a .y a {
+  background-image: url(/i/selfserve/crea_find.png);
+  display: block;
+  width: 217px;
+  height: 26px;
+  text-indent: -9999px;
+  overflow: hidden;
+}
+
+.ssbus .ssbus_create_button {
+	margin-right:14px;
+	margin-top:20px;
+}
+.ssbus .ssbus_create_button #createlink {
+  background-image: url(/i/selfserve/buttonSavePlace.png);
+  display: block;
+  width: 124px;
+  height: 33px;
+  text-indent: -9999px;
+  overflow: hidden;
+  float:left;
+  
+}
+.ssbus .ssbus_create_button #createMapLink {
+  background-image: url(../img/addLocationButton.gif);
+  display: block;
+  width: 154px;
+  height: 33px;
+  text-indent: -9999px;
+  overflow: hidden;
+  float:left;
+}
+
+.ssbus_cancelcreate_button #cancelcreatelink,.ssbus #closemap
+{
+	background-image: url(../img/buttonCancel.png);
+  display: block;
+  width: 114px;
+  height: 33px;
+  margin-left:10px;
+  text-indent: -9999px;
+  overflow: hidden;
+  margin-top: 10px;
+  
+	
+}
+.ssbus .closemapdiv
+{
+	
+	width:150px;
+	margin-left:auto;
+	margin-right:auto;
+}
+.ssbus .newlocation
+{
+	background-image:url(/i/selfserve/button_new_location.png);
+display:block;
+float:right;
+height:33px;
+margin-left:5px;
+overflow:hidden;
+position:relative;
+text-indent:-9999px;
+top:-56px;
+width:154px;
+}
+
+.ssbus .ssbus_mg .b .x {
+  padding-top: 20px;
+}
+
+.ssbus .ssbus_mg .b .x .f1 {
+  float: left;
+}
+
+.ssbus .ssbus_mg .b .x .f2 {
+  float: right;
+  padding-right: 15px;
+  width: 402px;
+}
+
+.ssbus .ssbus_mg .b .x .f2 .q {
+
+}
+
+.ssbus .ssbus_mg .b .x .f2 .w {
+  padding-top: 3px;
+}
+
+.ssbus .ssbus_mg .b .x .f2 .w .w1 {
+  float: left;
+  font-size: 12px;
+}
+
+.ssbus .ssbus_mg .b .x .f2 .w .w2 {
+  float: right;
+  font-size: 11px;
+}
+.ssbus .additionaltitle
+{
+	background:#E9E9E9 url(../img/moreInfo.gif) no-repeat center left;
+	font-size: 18px;
+	height: 28px;
+	padding:6px 0 6px 50px;
+	color: #666;
+}
+
+.ssbus .additionalbody
+{
+	border-bottom:5px solid #E9E9E9;
+}
+.ssbus .additionalinfo 
+{
+	display:none;
+	background-color: #FFFFFF;
+}
+.ssbus .additionalinfo .additionalbody .col
+{
+	float:left;
+	width:65%;
+	margin-top:10px;
+	margin-left:5px;
+}
+.ssbus .additionalinfo .additionalbody .col .inlinelabel
+{
+		width:130px;
+		float:left;
+}
+
+.ssbus .additionalinfo .additionalbody input
+{
+	width:180px;
+	border:1px solid #999;
+	padding:2px;
+	font-size: 13px;
+	color: #444;
+}
+
+#locationaddress {
+	background-color: lightgrey;
+}
+
+.ssbus .additionalinfo .additionalbody textarea#locationdescription
+{
+	width:180px;
+	height:100px;
+	border: 1px solid #999;
+	padding:2px;
+	color:#444;
+}
+
+
+.ssbus .additionalinfo .additionalbody .colleft
+{
+	margin-left:20px;	
+}
+
+.col div, .colleft div
+{
+	margin-bottom:10px;
+}
+
+.ssbus .cancellink
+{
+background:transparent url(../img/miniX.gif) no-repeat scroll left center;
+color:#980000;
+display:inline;
+font-size:12px;
+font-weight:bold;
+text-decoration:none;
+height:14px;
+padding-left:14px;
+text-transform:uppercase;
+cursor:pointer;
+
+}
+
+.ssbus .savelink
+{
+	margin-right:20px;
+	float:left;
+	cursor:pointer;
+background:transparent url(../img/miniEdit.gif) no-repeat scroll left center;
+color:#3B638F;
+display:block;
+font-size:12px;
+text-decoration:none;
+font-weight:bold;
+height:16px;
+padding-left:16px;
+text-transform:uppercase;
+}
+
+.ssbus #searcherror
+{
+	color:Red;
+	padding:10px;	
+	
+	
+}
+
+.centerbuttons
+{
+	width:160px;
+	height: 50px;
+	margin-right:auto;
+	margin-left:auto;
+
+}
+
+.ssbus .ssbus_locHeader
+{
+	border-bottom:1px solid #CCCCCC;
+color:#32711f;
+font-size:20px;
+font-weight:bold;
+margin-bottom:10px;
+padding:5px 5px 6px 0;
+
+}
+
+.ssbus .latlng {
+	color:#666666;
+	font-color: #666666;
+}

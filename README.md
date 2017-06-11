@@ -3,3 +3,5 @@ The PlanetEye WordPress Google Map plug-in allows a blogger to link blog posts t
 https://wordpress.org/plugins/planeteye-maps/
 
 PlanetEye has licensed technology from Microsoft’s World-Wide Media eXchange program.
+
+![screenshot](screenshot-1.jpg)

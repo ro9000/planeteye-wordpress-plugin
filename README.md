@@ -4,4 +4,4 @@ https://wordpress.org/plugins/planeteye-maps/
 
 PlanetEye has licensed technology from Microsoft’s World-Wide Media eXchange program.
 
-![screenshot](screenshot-1.jpg)
+![screenshot](screenshot-1.png)
